@@ -27,7 +27,7 @@ plugins: [
   {
     resolve: `gatsby-plugin-hardal`,
     options: {
-      websiteId: "7fab3e71-03de-40d1-9dcb-70e28568fa0e",
+      websiteId: "<PASTE_YOUR_WEBSITE_ID>",
       srcUrl: "https://app.usehardal.com/hardal.js",
       includeInDevelopment: true,
       autoTrack: true,
