@@ -1,7 +1,7 @@
 {
   "name": "gatsby-plugin-hardal",
   "description": "Gatsby plugin to add Hardal to a Gatsby site",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Hardal <hey@hardal.xyz>",
   "license": "MIT",
   "repository": {
