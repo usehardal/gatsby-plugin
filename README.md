@@ -4,7 +4,6 @@
   </a>
 </p>
 
-
 # Hardal for Gatsby
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) [![version](https://img.shields.io/badge/version-1.0.1-green.svg)](https://semver.org)
@@ -28,12 +27,13 @@ plugins: [
   {
     resolve: `gatsby-plugin-hardal`,
     options: {
-      websiteId: "<PASTE_YOUR_WEBSITE_ID>",
-      srcUrl: "https://usehardal.com/hardal.js",
+      websiteId: "7fab3e71-03de-40d1-9dcb-70e28568fa0e",
+      srcUrl: "https://app.usehardal.com/hardal.js",
+      includeInDevelopment: true,
       autoTrack: true,
       builtInEvents: false, // get your built-in events like scroll, rage click, etc.
-      respectDoNotTrack: true
-      eventModel: 'web2' // web3 is coming soon!
+      respectDoNotTrack: true,
+      eventModel: "web2" // web3 is coming soon!
     }
   }
 ];
