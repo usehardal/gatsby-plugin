@@ -6,7 +6,7 @@
 
 # Hardal for Gatsby
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) [![version](https://img.shields.io/badge/version-1.0.1-green.svg)](https://semver.org)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) [![version](https://img.shields.io/badge/version-1.0.3-green.svg)](https://semver.org)
 
 An official plugin to add the [Hardal](https://usehardal.com/) tracking snippet to your [Gatsby](https://www.gatsbyjs.com/) site.
 
