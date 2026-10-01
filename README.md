@@ -10,19 +10,23 @@
 
 # Hardal for Gatsby
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![version](https://img.shields.io/badge/version-1.0.3-green.svg)](https://semver.org)
+Add Hardal analytics to a [Gatsby](https://www.gatsbyjs.com/) website by loading the Hardal tracking script through `gatsby-config.js`. The plugin configures the website ID, script URL, automatic tracking, built-in events, and Do Not Track behavior.
 
-Add the Hardal tracking snippet to your [Gatsby](https://www.gatsbyjs.com/) site with this plugin.
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![Package version](https://img.shields.io/badge/version-1.0.3-green.svg)](package.json)
 
-## Install
+## Getting started
 
-`npm install --save gatsby-plugin-hardal`
+You need a Gatsby site, a Hardal website ID, and a compatible Hardal tracker URL. Install the plugin, then add the configuration below to your Gatsby project.
 
-or
+## Installation
 
-`yarn add gatsby-plugin-hardal`
+```bash
+npm install --save gatsby-plugin-hardal
+# or
+yarn add gatsby-plugin-hardal
+```
 
-## How to use
+## Configuration
 
 ```javascript
 // In your gatsby-config.js
@@ -42,3 +46,14 @@ plugins: [
   }
 ];
 ```
+
+`includeInDevelopment` controls whether the script is included during development; production builds include it automatically. See [the plugin source](src/gatsby-ssr.js) for the exact script attributes.
+
+## Support
+
+Maintained by [Hardal](https://github.com/usehardal).
+
+- [Hardal documentation](https://docs.usehardal.com)
+- [Report an issue](https://github.com/usehardal/gatsby-plugin/issues)
+- [Hardal website](https://usehardal.com)
+
