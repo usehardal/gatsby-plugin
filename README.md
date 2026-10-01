@@ -1,14 +1,18 @@
 <p align="center">
-  <a href="https://usehardal.com/?utm_source=github&utm_medium=gatsby_plugin_logo" target="_blank">
-    <img src="https://res.cloudinary.com/raufsamestone/image/upload/v1671398927/hardal/gj5urlgigxm9axbpp1oh.svg" alt="Hardal" width="180" height="84">
+  <a href="https://usehardal.com/">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://imge.usehardal.com/cdn/logo/new/svg/o9vnmleauvr2t5xvn9xe.svg?raw=1">
+      <source media="(prefers-color-scheme: light)" srcset="https://imge.usehardal.com/cdn/logo/new/svg/yglazyhcy7kv6053lrso.svg?raw=1">
+      <img src="https://imge.usehardal.com/cdn/logo/new/svg/yglazyhcy7kv6053lrso.svg?raw=1" alt="Hardal" width="180">
+    </picture>
   </a>
 </p>
 
 # Hardal for Gatsby
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) [![version](https://img.shields.io/badge/version-1.0.3-green.svg)](https://semver.org)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![version](https://img.shields.io/badge/version-1.0.3-green.svg)](https://semver.org)
 
-An official plugin to add the [Hardal](https://usehardal.com/) tracking snippet to your [Gatsby](https://www.gatsbyjs.com/) site.
+Add the Hardal tracking snippet to your [Gatsby](https://www.gatsbyjs.com/) site with this plugin.
 
 ## Install
 
@@ -33,7 +37,7 @@ plugins: [
       autoTrack: true,
       builtInEvents: false, // get your built-in events like scroll, rage click, etc.
       respectDoNotTrack: true,
-      eventModel: "web2" // web3 is coming soon!
+      eventModel: "web2"
     }
   }
 ];
